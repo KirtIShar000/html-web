@@ -1,0 +1,42 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+svg{
+  border-radius: 50%;
+}
+#id{
+  margin-top: 5px;
+}
+#testimonial{
+margin-left: 200px;
+margin-right: 200px;
+align-content: center;
+display: flex;
+justify-content: center;
+}
+#testimonial>img{
+
+}
+#testimonial>h1{
+  font-size: 30px;
+}
+#title>img{
+  display: flex;
+  height: 100px;
+  align-items: baseline;
+}
